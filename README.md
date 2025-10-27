@@ -1,34 +1,105 @@
-Here is a detailed technical prompt for a project focused on analyzing historical sales data, using an entirely open-source tech stack.
+# RevWave 🌊
 
----
+A comprehensive retail sales analysis and forecasting project. Using advanced data analytics and interactive visualizations, RevWave helps businesses understand their sales patterns and make data-driven decisions with sophisticated time series modeling (SARIMA and Holt-Winters).
 
-### **Technical Prompt: Time Series Analysis and Sales Forecasting Project**
+## Project Visualizations 📈
 
-**Project Title:** Analyzing and Forecasting Retail Sales Trends
+### Weekly Sales Patterns
+![Weekly Sales Analysis](weekly_sales.png)
+*Comprehensive analysis of weekly sales patterns showing seasonal trends, overall growth, and market dynamics*
 
-**Objective:**
-To conduct a comprehensive analysis of a historical sales dataset to identify underlying trends, seasonal patterns, and key growth drivers. The ultimate goal is to build a predictive model to forecast future sales and provide actionable insights for inventory management and marketing strategies.
+### Store Type Performance Analysis
+RevWave analyzes different store types to uncover unique performance patterns and optimization opportunities:
 
-**Tech Stack:**
-*   **Programming Language:** Python 3.x
-*   **Core Libraries:**
-    *   **Data Manipulation & Analysis:** Pandas, NumPy
-    *   **Data Visualization:** Matplotlib, Seaborn
-    *   **Time Series Analysis & Forecasting:** `statsmodels`, `scikit-learn`
-*   **Database:** PostgreSQL or SQLite for data querying and extraction exercises.
-*   **Development Environment:** Jupyter Notebook or JupyterLab.
-*   **Version Control:** Git and GitHub.
+#### Type A & B Stores
+| Store Type A | Store Type B |
+|:------------:|:------------:|
+| ![Type A](a_stores.png) | ![Type B](b_stores.png) |
+| *High-volume urban locations* | *Suburban retail centers* |
 
-**Dataset:**
-You will use the "Retail Sales Dataset," an open-source dataset available on platforms like Kaggle. This dataset typically contains information such as:
-*   `Date` or `Timestamp` of the sale
-*   `StoreID`
-*   `ProductID` or `SKU`
-*   `Units_Sold`
-*   `Price`
-*   `Region` or `Location`
+#### Type C & D Stores
+| Store Type C | Store Type D |
+|:------------:|:------------:|
+| ![Type C](c_stores.png) | ![Type D](d_stores.png) |
+| *Mid-size market stores* | *Premium locations* |
 
-*(A link to a specific suggested dataset can be provided, or the user can be instructed to find a suitable one.)*
+#### Type E Stores
+![Type E](e_stores.png)
+*Specialized retail locations with unique sales patterns*
+
+### Forecasting Results
+![SARIMA Forecast](forecast_SARIMA.png)
+*Advanced SARIMA model forecast demonstrating predicted sales trends and patterns*
+
+### Confidence Intervals
+![Confidence Intervals](confidence_intervals_forecast.png)
+*Forecast reliability assessment with 95% confidence intervals for precise decision-making*
+
+## Features ✨
+- **Multi-dimensional Analysis**: Comprehensive analysis across different store types and product categories
+- **Time Series Decomposition**: Advanced trend and seasonality analysis
+- **External Factor Analysis**: Impact evaluation of holidays and oil prices on sales
+- **Comparative Modeling**: SARIMA vs Holt-Winters forecasting models
+- **Interactive Visualizations**: Rich, interactive dashboards for deep insights
+
+## Technical Stack 🛠️
+
+- **Core**: Python 3.x
+- **Data Processing**: Pandas, NumPy
+- **Visualization**: Plotly, Matplotlib, Seaborn
+- **Modeling**: statsmodels, scikit-learn
+
+## Getting Started 🚀
+
+1. Clone the repository:
+```bash
+git clone https://github.com/KhayredineG/rev_wave.git
+cd rev_wave
+```
+
+2. Create and activate virtual environment:
+```bash
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+source .venv/bin/activate  # Unix/MacOS
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Download the dataset from [Kaggle Store Sales Competition](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
+
+5. Open and run the analysis notebook:
+```bash
+jupyter notebook notebooks/sales_analysis.ipynb
+```
+- **Interactive Computing**: Jupyter Notebooks
+
+## Getting Started 🚀
+
+1. Clone the repository:
+```bash
+git clone https://github.com/KhayredineG/rev_wave.git
+cd rev_wave
+```
+
+2. Create and activate virtual environment:
+```bash
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+source .venv/bin/activate  # Unix/MacOS
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Download the dataset from [Kaggle Store Sales Competition](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
+
+5. Explore the analysis in `notebooks/sales_analysis.ipynb`
 
 ---
 

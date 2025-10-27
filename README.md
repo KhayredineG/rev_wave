@@ -1,9 +1,3 @@
-Here is a detailed technical prompt for a project focused on analyzing historical sales data, using an entirely open-source tech stack.
-
----
-
-### **Technical Prompt: Time Series Analysis and Sales Forecasting Project**
-
 **Project Title:** Analyzing and Forecasting Retail Sales Trends
 
 **Objective:**
@@ -27,8 +21,6 @@ You will use the "Retail Sales Dataset," an open-source dataset available on pla
 *   `Units_Sold`
 *   `Price`
 *   `Region` or `Location`
-
-*(A link to a specific suggested dataset can be provided, or the user can be instructed to find a suitable one.)*
 
 ---
 
@@ -80,5 +72,3 @@ Your final submission should be a GitHub repository containing the following:
 2.  **Cleaned Dataset (`.csv`):** An exported CSV file of the cleaned and preprocessed data.
 3.  **A `README.md` file:** This file should provide a clear overview of the project, instructions on how to run the code, a summary of your findings, and your final recommendations based on the analysis (e.g., "Sales peak in November and December, suggesting increased inventory is needed," or "Product X shows declining trend and may need a new marketing push.").
 4.  **(Optional) Environment File:** A `requirements.txt` or `environment.yml` file to ensure the reproducibility of your project environment.
-
-This technical prompt provides a structured, end-to-end project that effectively showcases the desired skills using a completely open-source technology stack.
